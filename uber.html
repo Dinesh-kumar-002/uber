@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="uber.css">
+    <script src="https://kit.fontawesome.com/92d73c3f26.js" crossorigin="anonymous"></script>
+</head>
+<body onload="underline1()" id="body">
+
+    <div class="contain">
+        <!-- header and navingation bars links etc.... -->
+    <div class="contain header d-flex justify-content-between">
+        
+        <div class="logo p-3 ">
+            <h4 class="text text-white ">Uber</h4>
+        </div>
+
+        <div class="links p-3">
+            <a href="#" class="login text text-white text-decoration-none mx-2 rounded-pill" onclick="login()">Log in</a>
+            <a href="#" class="signup text text-dark text-decoration-none mx-2 bg-white rounded-pill">Sign up</a>
+            <a href="#" class="menu text text-white text-decoration-none mx-2">=</a>
+        </div>
+        
+    </div>
+
+    <!-- second links with button -->
+
+<div class="second-links mx-4 mt-4">
+    <div class="link pt-4 m-2" onclick="underline1()">
+        <img src="Images/car-front-outlined.svg" alt="car-img" width="18px" class="car">
+        <p class="para pt-2"  id="ride">Ride</p>
+    </div>
+    <div class="link pt-4 m-2" onclick="underline2()">
+        <img src="Images/Earn-filled.svg" alt="car-img" width="18px" class="car">
+        <p class="para pt-2"  id="driver">Driver or <br> deliver</p>
+    </div>
+    <div class="link pt-4 m-2" onclick="underline3()">
+        <img src="Images/keys_car_filled.svg" alt="car-img" width="18px" class="car">
+        <p class="para pt-2"  id="rent">Rent your <br> fleet</p>
+    </div>
+</div> 
+    <!-- horizontal line -->
+    
+    <hr class="text text-secondary m-1">
+
+    <!-- main content that works responsive -->
+    <!-- main content---1 -->
+    
+    <div id="content" >
+        <div class="content-1" id="content-1">
+        <div id="request" >
+            <h1 class="m-3"><b>Request a ride now</b></h1>
+            <div class="inputs d-flex flex-column mt-4">
+                <input type="text" placeholder="Enter pickup location" class="input p-3 border-0 ">
+                <input type="text" placeholder="Enter destination" class="input p-3 border-0 mt-2">
+            </div>
+        </div>
+            <div class="request-ride mt-5">
+                <button class="request-now text text-center">Request now</button>
+                <button class="schedule-now text text-center">Schedule for later</button>
+            </div>
+
+            <div class="image">
+                <img src="Images/DotCom_Update_Rider_bg_sml2x.jpg" alt="no image" class="image-1 w-100 mt-3">
+            </div>
+        </div>   
+    
+
+    <!-- main content that works responsive -->
+    <!-- main content---2 -->
+    <div class="get-driver" id="content-2">
+        <h1 class="get m-4"> <b>Get in the driver's seat and get paid</b></h1>
+            <p class="driver-para m-4">Driver on the platform with the largest network of active riders.</p>
+            <button class="signuptodrive button py-3 px-4 mx-4 border-0 rounded-3 d-block">Sign up to drive</button>
+
+            <div class="learn-more mt-3">
+                <a href="#" class="learn text">Learn nore about driving and delivering</a>
+            </div>
+            <div class="image mt-4"><img class="w-100" src="Images/DotCom_Update_Earner_bg_sml2x.jpg" alt="no image mt-5">
+            </div>
+    </div>
+
+    <!-- main content that works responsive -->
+    <!-- main content---3 -->
+<div class="make" id="content-3">
+    <h1 class="make-money m-4"><b>Make money by renting out your car</b></h1>
+    <div class="connect-para m-4">
+        <p> Connect with thousands of drivers and earn more per week with Uber's free fleet management tools.</p>
+    </div>
+    <div class="get-started">
+        <button class="signuptodrive button py-2 px-4 mx-4 border-0 rounded-3 d-block">Get Started</button>
+    </div>
+    <div class="image">
+        <img src="Images/UberIM_002309-(1).jpg" alt="no image" class="w-100 mt-4">
+    </div>
+</div>
+
+
+</div>
+
+<!-- building image with text on image -->
+
+<div class="business ">
+    <img src="Images/images.jpg" alt="" class="building-image ">
+    <div class="whole ">
+        <h3 class="uberfor text mt-4 ms-4"><b>Uber for Business</b></h3>
+        <div class="transform-para mx-4 ">
+            <p>Transform the way your company moves and feeds its people.</p>
+        </div>
+        <button class="seehow button px-4 py-2 ms-4 mt-3 rounded-3 border-0 text text-white">See how</button>
+    </div>
+    
+</div>
+
+<!-- ride with uber -->
+<div class="content-4">
+    <h2 class="ridewithuber ms-3 mt-4"><b>Ride with Uber</b></h2>
+    <div class="col-12">
+        <div class="row">
+            <div class="whole2 mt-5">
+                <div class="small-icon">
+                    <img src="Images/Auto-150X150p4x.png" alt="" class="riksha small-logo m-3 ms-4">
+                </div>
+                <div class="uberauto d-flex flex-column p-2">
+                    <h2 class="text"><b>Uber Auto</b></h2>
+                    <p class="para1">Get affordable Uber Auto rides with no haggling. Request Uber Auto and ride comfortably around your city.</p>
+                </div>
+                <div class="right">
+                    <i class="fas fa-regular fa-arrow-right p-4 pt-5" style="color: #000000;"></i>      
+                </div>
+            </div>
+
+            <div class="whole2 mt-5">
+                <div class="small-icon">
+                    <img src="Images/Moto-150X150p4x.png" alt="" class="riksha small-logo m-3">
+                </div>
+                <div class="uberauto d-flex flex-column p-2">
+                    <h2 class="text"><b>Uber Moto</b></h2>
+                    <p class="para1">Get affordable bike rides at your doorstep. Skip the crowd and zip through traffic with Uber Moto.</p>
+                </div>
+                <div class="right">
+                    <i class="fas fa-regular fa-arrow-right p-4 pt-5" style="color: #000000;"></i>      
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="whole2 mt-5">
+                <div class="small-icon">
+                    <img src="Images/uber-hourly.jpeg" alt="" class="riksha small-logo m-3">
+                </div>
+                <div class="uberauto d-flex flex-column p-2">
+                    <h2 class="text"><b>Uber Rentals</b></h2>
+                    <p class="para1">Book Rentals to save time with one car and driver for your multi-stop trips.</p>
+                </div>
+                <div class="right">
+                    <i class="fas fa-regular fa-arrow-right p-4 pt-5" style="color: #000000;"></i>      
+                </div>
+            </div>
+
+            <div class="whole2 mt-5">
+                <div class="small-icon">
+                    <img src="Images/Intercity-150X150p4x.png" alt="" class="riksha small-logo m-3">
+                </div>
+                <div class="uberauto d-flex flex-column p-2">
+                    <h2 class="text"><b>Uber Intercity</b></h2>
+                    <p class="para1">Book Intercity to head outstation anytime in convenient and affordable cars.</p>
+                </div>
+                <div class="right">
+                    <i class="fas fa-regular fa-arrow-right p-4 pt-5" style="color: #000000;"></i>      
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- focus on safety, wherever -->
+
+
+<div class="third-div">
+    <div class="focused-heading">
+        <h1 class="text p-4"><b>Focused on safety, wherever you go</b></h1>
+    </div>
+    <div class="driverimage">
+        <img src="Images/Safety_Home_Img2x.jpeg" alt="no image" class="w-100 p-4">
+    </div>
+    <h5 ><b class="ms-4">Our commitment to your safety</b></h5>
+    <p class="para-commitment m-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusamus magni assumenda sapiente enim eligendi maxime, natus modi vero, ratione quam error! Aspernatur labore.
+    </p>
+    <div class="two-links ms-4">
+        <a href="#" class="text read1 ">Read about our community Guidelines</a>
+        <a href="#" class="text read2 mt-3">See all safety features</a>
+    </div>
+    
+</div>
+<!-- focus on safety, wherever -->
+
+<div class="fourth-div">
+    
+    <div class="driverimage">
+        <img src="Images/Cities_Home_Img2x.jpeg" alt="no image" class="w-100 p-4">
+    </div>
+    <h5 ><b class="ms-4">Setting 10,000+ cities in motion</b></h5>
+    <p class="para-commitment m-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusamus magni assumenda sapiente enim eligendi maxime, natus modi vero, ratione quam error! Aspernatur labore.
+    </p>
+    <a href="#" class="text read2 m-4">view all cities</a>
+</div>
+
+<!-- another division with three blocks -->
+
+<div class="logos p-4">
+    <div class="svg pt-2">
+        <img src="Images/person-multiple-outlined.svg" alt="" class="people">
+    </div>
+    <h6 class="title text mt-3"><b>About us</b></h6>
+    <div class="explain pt-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quaerat eligendi? Id aut in laborum ipsam soluta quos fugiat.
+    </div>
+    <div class="newsroom mt-4">
+        <a href="#" class="anchor">Learn more about Uber</a>
+    </div>
+</div>
+<div class="logos p-4">
+    <div class="svg pt-2">
+        <img src="Images/document-outlined.svg" alt="" class="people">
+    </div>
+    <h6 class="title text mt-3"><b>About us</b></h6>
+    <div class="explain pt-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, qn laborum ipsam soluta quos fugiat.
+    </div>
+    <div class="newsroom mt-4">
+        <a href="#" class="anchor">Go to newsroom</a>
+    </div>
+</div>
+<div class="logos p-4">
+    <div class="svg pt-2">
+        <img src="Images/home-outlined.svg" alt="" class="people">
+    </div>
+    <h6 class="title text mt-3"><b>About us</b></h6>
+    <div class="explain pt-2">
+        Lorem ipsum dolor sit amet quaerat eligendi? Id aut in laborum ipsam soluta quos fugiat.
+    </div>
+    <div class="newsroom mt-4">
+        <a href="#" class="anchor">See our Partnership</a>
+    </div>
+</div>
+
+<!-- uber logo right side lnks -->
+<div class="moretolove">
+    <div class="love m-3">
+        <h1><b>There's more to love in the apps</b></h1>
+    </div>
+    <div class="firstlink d-flex border-1 border-secondary">
+        <img src="Images/Driver-App-logo.png" alt="no logo" width="90" height="90" class="uberright m-3">
+        <h2 class="download pt-4"><b>Download the Driver app</b></h2>
+        <i class="fas fa-regular fa-arrow-right p-4 pt-5" style="color: #000000;"></i>
+
+    </div>
+    <div class="firstlink d-flex mt-4 border-secondary">
+        <img src="Images/Rider-App-logo.png" alt="no logo" width="90" height="90" class="uberright m-3">
+        <h2 class="download pt-4"><b>Download the Uber app</b></h2>
+        <i class="fas fa-regular fa-arrow-right p-4 pt-5" style="color: #000000;"></i>
+
+    </div>
+</div>
+
+<!-- signup and login content -->
+<div class="whole5" id="callme">
+    <div class="signupandlogin pt-4" >    
+        <div class="drivesignup pt-3 ps-5 ">
+            <h1 class="d-inline-flex justify-content-evenly pb-4"><b>Sign up to drive</b></h1>
+            <span class="fas fa-regular fa-arrow-right float-end pe-3" style="color: #000000;"></span>
+        </div>
+        <hr class="hr-line">
+        <div class="drivelogin pt-5 ps-5">
+            <h1 class="d-inline-flex justify-content-evenly pb-4"><b>Sign up to ride</b></h1>
+            <i class="fas fa-regular fa-arrow-right float-end pe-3" style="color: #000000;"></i>
+        </div>
+        <hr class="hr-line">
+    </div>
+</div>
+    
+<div class="foot mt-5">
+    <div class="uber-links">
+        <h4 class="tit">Uber</h4>
+        
+            <a href="#">Visist Help Center</a>
+        
+    </div>
+    <div class="uber-links">
+        <h4 class="tit">Company</h4>
+        
+            <a href="#">About us</a>
+            <a href="#">Our offerings</a>
+            <a href="#">Newsroom</a>
+            <a href="#">Investors</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+            <a href="#">AI</a>
+            <a href="#">Gift cards</a>
+        
+    </div>
+    <div class="uber-links">
+        <h4 class="tit">Products</h4>
+        
+            <a href="#callme">Ride</a>
+            <a href="#callme">Drive</a>
+            <a href="#">Eat</a>
+            <a href="#">Deliver</a>
+            <a href="#">Uber for business</a>
+            <a href="#">Uber Freight</a>
+        
+    </div>
+    <div class="uber-links">
+        <h4 class="tit">Global citienship</h4>
+        
+            <a href="#">Safety</a>
+            <a href="#">Diversity and Inclusion</a>
+            <a href="#">Sustainability</a>
+        
+    </div>
+    <div class="uber-links">
+        <h4 class="tit">Travel</h4>
+            <a href="#">Airports</a>
+            <a href="#">Cities</a>
+        
+    </div>
+
+    <!-- social media iconsa -->
+
+    <div class="social">
+        <div class="social-media-icons d-flex m-auto w-100">
+            <i class="fa fa-lg fa-brands fa-square-facebook p-4 pt-5" style="color: #ffffff;"></i>
+            <i class="fa fa-lg fa-brands fa-twitter p-4 pt-5" style="color: #ffffff;"></i>
+            <i class="fa fa-lg fa-brands fa-youtube p-4 pt-5" style="color: #ffffff;"></i>
+            <i class="fa fa-lg fa-brands fa-linkedin p-4 pt-5" style="color: #ffffff;"></i>
+            <i class="fa fa-lg fa-brands fa-instagram p-4 pt-5" style="color: #ffffff;"></i>
+        </div>
+    </div>
+
+    <!-- row elements -->
+    <div class="rowelements mt-5">
+        <h6 class="rowelements text text-white mt-3"><i class="fa fa-2xs fa-light fa-globe" style="color: #ffffff;"></i>  English</h6>
+        <h6 class="rowelements text text-white mt-3"><i class="fa fa-2xs fa-solid fa-location-dot" style="color: #ffffff;"></i>  Chennai</h6>
+    </div>
+
+    <!-- app links links android iphone -->
+    <div class="applinks">
+        <div class="apps d-flex mt-4">
+            <img src="Images/app-store-google-4d63c31a3e.svg" alt="android" class="android">
+            <img src="Images/app-store-apple-f1f919205b.svg" alt="ios" class="ios">
+        </div>
+    </div>
+
+    <!-- copyright stuffs -->
+
+
+<div class="copyright d-flex mt-4">
+    <span><i class="fa fa-light fa-copyright" style="color: #ffffff;"></i></span>
+    <p class="text text-white "> 2023 Uber Technologies Inc.</p>
+</div>
+
+<!-- final -->
+
+<div class="privacy d-flex pb-5 pt-4">
+    <div class="titleprivacy"><a href="#" class="text text-white text-decoration-none px-2">privacy</a></div>
+    <div class="titleprivacy"><a href="#" class="text text-white text-decoration-none px-2">Accessibility</a></div>
+    <div class="titleprivacy"><a href="#" class="text text-white text-decoration-none px-2">Terms</a></div>
+</div>
+
+
+<!-- top button -->
+
+<div class="top d-flex justify-content-end position-relative">
+    <a href="#body"><i class="fa fa-sharp fa-arrow-up fa-beat bg-white rounded-circle p-2" style="color:black"></i></a>
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+   <script src="js/bootstrap.min.js"></script> 
+   <script src="uber.js"></script>
+</body>
+</html>

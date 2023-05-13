@@ -1,0 +1,215 @@
+body{
+    font-family: sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+/* loading animation */
+/* @keyframes up {
+    0% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  } */
+.header{
+    background-color: black;
+}
+.signup{
+    
+    padding: 8px;
+}
+.login{
+    
+    padding: 8px;
+}
+.menu{
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.second-links{
+    display: flex;
+
+}
+.link{
+    width: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.para{
+    font-size: 13px;
+}
+.link,.logo:hover{
+    cursor: pointer;
+}
+
+/* content-1 */
+
+.inputs{
+  justify-content: center;
+  align-items: center;
+}
+.input{
+    background-color: rgb(244, 243, 243);
+    width: 90%;
+}
+.input:focus{
+    outline: none;
+}
+.request-ride{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.request-now{
+    width: 90%;
+    background-color: black;
+    color: white;
+    border: 0;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 10px;
+}
+.schedule-now{
+    width: 90%;
+    margin-top: 25px;
+    background-color: rgb(226, 226, 226);
+    border: 0;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+/* content-2 */
+.learn{
+    text-underline-offset: 10px;
+    text-decoration-color: grey;
+    margin-left: 20px;
+    padding-top: 20px;
+    color: black;
+
+}
+.signuptodrive{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+/* building image */
+
+.seehow{
+    background-color: black;
+
+}
+.uberfor{
+    color: black;
+}
+.business{
+    position: relative;
+}
+.whole{
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.building-image{
+ width: 100%;
+}
+.small-logo{
+    width: 90px;
+    height: 90px;
+}
+.whole2{
+    display: flex;
+}
+.fas{
+    font-size: 22px;
+}
+.whole2{
+    width: 100%;
+    
+}
+.para1{
+    font-size: 14px;
+}
+
+/* focused on safety */
+
+.read1,.read2{
+    color: black;
+    display: block;
+    text-decoration-line: 0.5px;
+    text-decoration-color: grey;
+    text-underline-offset: 7px;
+}
+.anchor{
+    text-decoration-line: 0.5px;
+    text-decoration-color: grey;
+    text-underline-offset: 7px;
+    color: black;
+}
+.moretolove{
+    background-color: rgb(228, 228, 228);
+    padding: 15px;
+}
+.firstlink{
+    height: max-content;
+    background-color: white;
+    
+}
+.hr-line{
+    border-bottom: 2px solid rgb(1, 0, 0);
+    width: 90%;
+    height: 2px;
+    color: black;
+    margin: auto;
+}
+.uber-links{
+    padding-bottom: 30px;
+}
+.uber-links a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-top: 15px;
+    font-size: 14px;
+}
+.tit{
+    color: white;
+    font-weight: bold;
+}
+.foot{
+    background-color: black;
+    padding-left:30px ;
+    padding-top: 40px;
+}
+.social{
+    background-color: black;
+}
+.android,.ios{
+    width: 150px;
+    padding: 5px;
+}
+.titleprivacy{
+    font-size: 13px;
+}
+.fa-arrow-up{
+    position: absolute;
+    bottom:40px;
+    right: 30px;
+}
+@media only screen and (min-width:500px) {
+    .building-image{
+        height: 250px;
+    }
+    .whole{
+         top: 30px;
+         left: 90px;
+    }
+}
